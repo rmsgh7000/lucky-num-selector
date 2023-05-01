@@ -1,16 +1,20 @@
-# git clone {repo addr}
+git clone {repo addr}
 
-# 1. gitignore 세팅하기
+1. gitignore 세팅하기
 
+'''shell
 $ touch.gitignore
 $ vi.gitignore
+'''
 
-# 2. selector.py 만들고 파이썬 환경 체크
+2. selector.py 만들고 파이썬 환경 체크
 
+'''shell
 $ touch selector.py
 $ vi selecotr.py
+'''
 
-# 3. random.select()숫자 6개 선택
+3. random.select()숫자 6개 선택
 
 - randint(생성에 가까움+중복)
 - select(중복)
